@@ -22,18 +22,18 @@ The study models EV adoption trends, compares CO₂ emissions between Electric V
 ```
 Ev-Global-Model/
 │
-├── paper/
-│ └── Global_Model_EV_Adoption.pdf
+├── code/
+│ ├── analysis_codes.py
+│ ├── model_ev.py
+│ └── app_p1.py
 │
 ├── dataset/
 │ ├── bilsalg_data.csv # vehicle adoption data
 │ ├── energy_data.xlsx # electricity generation mix
 │ └── emission_data.xlsx # emission and economic factors
 │
-├── code/
-│ ├── analysis_codes.py
-│ ├── model_ev.py
-│ └── app_p1.py
+├── paper/
+│ └── Global_Model_EV_Adoption.pdf
 │
 └── README.md
 ```
@@ -103,11 +103,11 @@ Future work will extend the model to include battery lifecycle analysis, grid lo
 
 ## Authors / Team Members
 
-**Chamali Abeysekara**  
+**Rajintha Lakshani**  
 BSc in Applied Data Science Communication  
 
 **Team Members / Contributors:**  
-- Rajintha Lakshani  
+- Chamali Abeysekara 
 - Hussein Ziyard  
 - Muhammed Nasir  
 
